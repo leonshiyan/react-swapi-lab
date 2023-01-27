@@ -16,13 +16,13 @@ const StarshipList = (props) => {
 
   return (
     <>
-      <h1>All Starships</h1>
+      
       {starshipList.length ?
         <>
           {starshipList.map((ship,idx) => 
           <Card style={{ width: '18rem' }} key={idx}>
           <Card.Body>
-            <Card.Title><Link to='/ships' state={{ship}} >{ship.name}</Link></Card.Title>
+            <Card.Title><Link to='/ship' state={{ship}} >{ship.name}</Link></Card.Title>
             <Card.Subtitle className="mb-2 text-muted">{ship.manufacturer}</Card.Subtitle>
             <Card.Text></Card.Text>
             <Card.Link></Card.Link>
