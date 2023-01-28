@@ -2,7 +2,7 @@ import "./NavBar.css"
 const NavBar = () => {
   return (
     <header className="navbar">
-      <h2>STAR WARS STARSHIPS</h2>
+      <h3>STAR WARS STARSHIPS</h3>
     </header>
   )
 }
