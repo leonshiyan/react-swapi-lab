@@ -1,0 +1,16 @@
+.shipCard {
+  background-color: rgb(85, 119, 85);
+  color: white;
+  width: 20rem;
+  height: 10rem;
+  margin: 30vh auto;
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 10px;
+  flex-flow: column;
+}
+.shipCard a {
+  color: white;
+}
