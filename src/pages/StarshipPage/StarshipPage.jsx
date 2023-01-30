@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import { getDetails } from '../../services/sw-api'
 import { Link } from 'react-router-dom'
-import './ShipDetails.css'
+import './StarshipPage.css'
 
-const ShipDetails = () => {
+const StarshipPage = () => {
   const [shipDetails, setShipDetails] = useState({})
   const location = useLocation()
 
@@ -27,4 +27,4 @@ const ShipDetails = () => {
   )
 }
 
-export default ShipDetails;
+export default StarshipPage;

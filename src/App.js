@@ -2,7 +2,7 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom'
 
 import StarshipList from './pages/StarshipList/StarshipList'
-import ShipDetails from './pages/ShipDetails/ShipDetails';
+import ShipDetails from './pages/StarshipPage/StarshipPage';
 import NavBar from './components/NavBar/NavBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
